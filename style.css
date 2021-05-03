@@ -63,7 +63,7 @@ a {
 }
 
 .imageProductcart1 {
-    background-image: url(1.jpeg);
+    background-image: url(./assets/1.jpeg);
     background-position: center;
     background-size: cover;
 }
@@ -72,7 +72,7 @@ a {
     transition: 300ms ease-in-out;
 }
 .imageProductcart2 {
-    background-image: url(2.jpeg);
+    background-image: url(./assets/2.jpeg);
     background-position: center;
     background-size: cover;
 }
@@ -81,7 +81,7 @@ a {
     transition: 300ms ease-in-out;
 }
 .imageProductcart3 {
-    background-image: url(3.jpeg);
+    background-image: url(./assets/3.jpeg);
     background-position: center;
     background-size: cover;
 }
@@ -90,7 +90,7 @@ a {
     transition: 300ms ease-in-out;
 }
 .imageProductcart4 {
-    background-image: url(7.jpeg);
+    background-image: url(./assets/7.jpeg);
     background-position: center;
     background-size: cover;
 }
@@ -99,7 +99,7 @@ a {
     transition: 300ms ease-in-out;
 }
 .imageProductcart5 {
-    background-image: url(5.jpeg);
+    background-image: url(./assets/5.jpeg);
     background-position: center;
     background-size: cover;
 }
@@ -108,7 +108,7 @@ a {
     transition: 300ms ease-in-out;
 }
 .imageProductcart6 {
-    background-image: url(aot.png);
+    background-image: url(./assets/aot.png);
     background-position: center;
     background-size: cover;
 }
@@ -118,17 +118,17 @@ a {
 }
 
 .imageProductcart6 {
-    background-image: url(aot.png);
+    background-image: url(./assets/aot.png);
     background-position: center;
     background-size: cover;
 }
 .imageProductcart6 {
-    background-image: url(aot.png);
+    background-image: url(./assets/aot.png);
     background-position: center;
     background-size: cover;
 }
 .imageProductcart7 {
-    background-image: url(demon\ slayer.jpg);
+    background-image: url(./assets/demon\ slayer.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -137,7 +137,7 @@ a {
     transition: 300ms ease-in-out;
 }
 .imageProductcart8 {
-    background-image: url(dbs.jpg);
+    background-image: url(./assets/dbs.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -146,7 +146,7 @@ a {
     transition: 300ms ease-in-out;
 }
 .imageProductcart9{
-    background-image: url(mha.jpg);
+    background-image: url(./assets/mha.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -155,7 +155,7 @@ a {
     transition: 300ms ease-in-out;
 }
 .imageProductcart10 {
-    background-image: url(weathering.jpg);
+    background-image: url(./assests/weathering.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -164,7 +164,7 @@ a {
     transition: 300ms ease-in-out;
 }
 .imageProductcart11 {
-    background-image: url(your\ name.png);
+    background-image: url(./assets/your\ name.png);
     background-position: center;
     background-size: cover;
 }
@@ -173,7 +173,7 @@ a {
     transition: 300ms ease-in-out;
 }
 .imageProductcart12 {
-    background-image: url(iwteyp.jpg);
+    background-image: url(./assets/iwteyp.jpg);
     background-position: center;
     background-size: cover;
 }
