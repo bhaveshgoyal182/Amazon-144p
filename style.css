@@ -1,206 +1,203 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .section1 {
-    width: 100%;
-    min-height: 170vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+  width: 100%;
+  /* min-height: 170vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 .products {
-    min-height: 150vh;
-   
-    
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    
-    grid-gap: 30px;
-   
+  min-height: 150vh;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  grid-gap: 30px;
 }
 
 .product1 {
-    width: 400px;
-    height: 50vh;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+  width: 400px;
+  height: 50vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .image {
-    width: 300px;
-    height: 30vh;
-    
+  width: 300px;
+  height: 30vh;
 }
 
 .addtoCart {
-    color: white;
-    background: black;
-    padding: 20px;
-    cursor: pointer;
+  color: white;
+  background: black;
+  padding: 20px;
+  cursor: pointer;
 }
 
 .addtoCart:hover {
-color: black;
-background: white;
-transition: 500ms ease-in;
+  color: black;
+  background: white;
+  transition: 500ms ease-in;
 }
 
 a {
-    color: goldenrod;
-    text-decoration: none;
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 30px;
-    background: black;
+  color: goldenrod;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 30px;
+  background: black;
 }
 
 .imageProductcart1 {
-    background-image: url(./assets/1.jpeg);
-    background-position: center;
-    background-size: cover;
+  background-image: url(./assets/1.jpeg);
+  background-position: center;
+  background-size: cover;
 }
 .imageProductcart1:hover {
-    transform: scale(0.9);
-    transition: 300ms ease-in-out;
+  transform: scale(0.9);
+  transition: 300ms ease-in-out;
 }
 .imageProductcart2 {
-    background-image: url(./assets/2.jpeg);
-    background-position: center;
-    background-size: cover;
+  background-image: url(./assets/2.jpeg);
+  background-position: center;
+  background-size: cover;
 }
 .imageProductcart2:hover {
-    transform: scale(0.9);
-    transition: 300ms ease-in-out;
+  transform: scale(0.9);
+  transition: 300ms ease-in-out;
 }
 .imageProductcart3 {
-    background-image: url(./assets/3.jpeg);
-    background-position: center;
-    background-size: cover;
+  background-image: url(./assets/3.jpeg);
+  background-position: center;
+  background-size: cover;
 }
 .imageProductcart3:hover {
-    transform: scale(0.9);
-    transition: 300ms ease-in-out;
+  transform: scale(0.9);
+  transition: 300ms ease-in-out;
 }
 .imageProductcart4 {
-    background-image: url(./assets/7.jpeg);
-    background-position: center;
-    background-size: cover;
+  background-image: url(./assets/7.jpeg);
+  background-position: center;
+  background-size: cover;
 }
 .imageProductcart4:hover {
-    transform: scale(0.9);
-    transition: 300ms ease-in-out;
+  transform: scale(0.9);
+  transition: 300ms ease-in-out;
 }
 .imageProductcart5 {
-    background-image: url(./assets/5.jpeg);
-    background-position: center;
-    background-size: cover;
+  background-image: url(./assets/5.jpeg);
+  background-position: center;
+  background-size: cover;
 }
 .imageProductcart5:hover {
-    transform: scale(0.9);
-    transition: 300ms ease-in-out;
+  transform: scale(0.9);
+  transition: 300ms ease-in-out;
 }
 .imageProductcart6 {
-    background-image: url(./assets/aot.png);
-    background-position: center;
-    background-size: cover;
+  background-image: url(./assets/aot.png);
+  background-position: center;
+  background-size: cover;
 }
 .imageProductcart6:hover {
-    transform: scale(0.9);
-    transition: 300ms ease-in-out;
+  transform: scale(0.9);
+  transition: 300ms ease-in-out;
 }
 
 .imageProductcart6 {
-    background-image: url(./assets/aot.png);
-    background-position: center;
-    background-size: cover;
+  background-image: url(./assets/aot.png);
+  background-position: center;
+  background-size: cover;
 }
 .imageProductcart6 {
-    background-image: url(./assets/aot.png);
-    background-position: center;
-    background-size: cover;
+  background-image: url(./assets/aot.png);
+  background-position: center;
+  background-size: cover;
 }
 .imageProductcart7 {
-    background-image: url(./assets/demon\ slayer.jpg);
-    background-position: center;
-    background-size: cover;
+  background-image: url(./assets/demon\ slayer.jpg);
+  background-position: center;
+  background-size: cover;
 }
 .imageProductcart7:hover {
-    transform: scale(0.9);
-    transition: 300ms ease-in-out;
+  transform: scale(0.9);
+  transition: 300ms ease-in-out;
 }
 .imageProductcart8 {
-    background-image: url(./assets/dbs.jpg);
-    background-position: center;
-    background-size: cover;
+  background-image: url(./assets/dbs.jpg);
+  background-position: center;
+  background-size: cover;
 }
 .imageProductcart8:hover {
-    transform: scale(0.9);
-    transition: 300ms ease-in-out;
+  transform: scale(0.9);
+  transition: 300ms ease-in-out;
 }
-.imageProductcart9{
-    background-image: url(./assets/mha.jpg);
-    background-position: center;
-    background-size: cover;
+.imageProductcart9 {
+  background-image: url(./assets/mha.jpg);
+  background-position: center;
+  background-size: cover;
 }
 .imageProductcart9:hover {
-    transform: scale(0.9);
-    transition: 300ms ease-in-out;
+  transform: scale(0.9);
+  transition: 300ms ease-in-out;
 }
 .imageProductcart10 {
-    background-image: url(./assests/weathering.jpg);
-    background-position: center;
-    background-size: cover;
+  background-image: url(./assets/weathering.jpg);
+  background-position: center;
+  background-size: cover;
 }
 .imageProductcart10:hover {
-    transform: scale(0.9);
-    transition: 300ms ease-in-out;
+  transform: scale(0.9);
+  transition: 300ms ease-in-out;
 }
 .imageProductcart11 {
-    background-image: url(./assets/your\ name.png);
-    background-position: center;
-    background-size: cover;
+  background-image: url(./assets/your\ name.png);
+  background-position: center;
+  background-size: cover;
 }
 .imageProductcart11:hover {
-    transform: scale(0.9);
-    transition: 300ms ease-in-out;
+  transform: scale(0.9);
+  transition: 300ms ease-in-out;
 }
 .imageProductcart12 {
-    background-image: url(./assets/iwteyp.jpg);
-    background-position: center;
-    background-size: cover;
+  background-image: url(./assets/iwteyp.jpg);
+  background-position: center;
+  background-size: cover;
 }
 .imageProductcart12:hover {
-    transform: scale(0.9);
-    transition: 300ms ease-in-out;
+  transform: scale(0.9);
+  transition: 300ms ease-in-out;
 }
 
 .products-added {
-    min-height: 120vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 30px; 
-    margin-top: 40px;
+  min-height: 120vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  margin-top: 40px;
 }
 
-
 img {
-    width: 200px;
+  width: 200px;
 }
 
 .removeCart {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .cart {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 a:hover {
   color: black;
@@ -209,17 +206,113 @@ a:hover {
 }
 
 .upper {
-    display: flex;
-    align-self: flex-end;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    width: 70%;
+  display: flex;
+  align-self: flex-end;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  width: 70%;
 }
 
 .amount {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .logo {
-    justify-self: center;
+  justify-self: center;
+}
+
+@media only screen and (max-width: 450px) {
+    .section1{
+        margin-left: 20px;
+    }
+    .upper img{
+        margin-left: -50px;
+    }
+  .products {
+    min-height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .products-added {
+    min-height: 120vh;
+    margin-top: 40px;
+    width: 100%;
+    margin: 35px;
+    grid-template-columns: 0fr 0fr 0fr;
+    display: flex;
+    flex-direction: column;
+}
+  .addtoCart {
+    padding: 9px;
+    margin: 0px;
+    border-radius: 10%;
+    text-align: center;
+  }
+  .image {
+    width: 250px;
+    height: 100%;
+  }
+  a {
+    padding: 10px;
+  }
+  .upper {
+    display: flex;
+    align-self: center;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+  .amount {
+    font-size: 30px;
+    margin-right: -80px;
+}
+  .cart {
+    margin-top : 50px;
+    margin-left:35px;
+  }
+  .title {
+    margin-left: 0px;
+  }
+  .remove{
+      width: 100%;
+  }
+}
+
+@media only screen and (min-width: 405px) and (max-width: 1100px) {
+  .products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 0;
+    width: 100%;
+    margin-top: 10vh;
+  }
+  .image {
+    width: 300px;
+    height: 100%;
+  }
+  .addtoCart {
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10%;
+    text-align: center;
+  }
+  .title {
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .price {
+    margin: 0px 20px;
+  }
+  .products-added {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 }
